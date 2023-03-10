@@ -346,7 +346,7 @@ fi
 
 sonarScannerOptions=""
 # SonarQube
-if [ $enableDebug = "on" ]; then
+if [ "$enableDebug" = "on" ]; then
     sonarScannerOptions+="-X "
     echo "I am in enabled: $enableDebug"
 else
