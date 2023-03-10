@@ -344,7 +344,7 @@ else
 	echo 'Skipping OCLint (test purposes only!)'
 fi
 
-sonarScannerOptions=""
+sonarScannerOptions=" "
 # SonarQube
 if [ "$enableDebug" = "on"]; then
     sonarScannerOptions+="-X "
